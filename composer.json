@@ -1,0 +1,39 @@
+{
+    "name": "fourclub/tron-api",
+    "description": "PHP API for interacting with Tron (Trx)",
+    "license": "MIT",
+    "type":   "library",
+    "homepage": "https://github.com/fourclub/tron-api",
+    "require": {
+        "php": "^7.4",
+        "comely-io/data-types": "^1.0",
+        "guzzlehttp/guzzle": "^7.0",
+        "iexbase/web3.php": "^2.0.1",
+        "kornrunner/secp256k1": "^0.1.2",
+        "simplito/elliptic-php": "^1.0",
+        "ext-json": "*",
+        "ext-bcmath": "*"
+    },
+
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "fourclub\\TronAPI\\": "src"
+        }
+    },
+
+    "autoload-dev": {
+        "psr-4": {
+            "fourclub\\TronAPI\\Test\\": "tests"
+        }
+    },
+
+    "config": {
+        "sort-packages": true
+    },
+
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

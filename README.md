@@ -4,7 +4,10 @@ PHP 7.4 API for interacting with the Tron Protocol
 
 ---
 #### fork https://github.com/iexbase/tron-api
-+ added the setFeeLimit() method in PHP 7.4 support
++ added the setFeeLimit() method in PHP 7.4 support 
+
+Example: /examples/send-transaction USDT-TRC20.php
+
 ---
 
 ## Install
